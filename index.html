@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nature Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Nature Gallery</h1>
+    <p>A responsive image gallery built with CSS Grid</p>
+  </header>
+
+  <main class="gallery" id="gallery">
+    <figure><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=70" alt="Mountain valley at sunrise"><figcaption>Mountain Valley</figcaption></figure>
+    <figure><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=70" alt="Sunlight through a forest"><figcaption>Forest Light</figcaption></figure>
+    <figure><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=70" alt="Sun rays over a green landscape"><figcaption>Golden Morning</figcaption></figure>
+    <figure><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=900&q=70" alt="Foggy green hills"><figcaption>Misty Hills</figcaption></figure>
+    <figure><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=70" alt="Calm lake between mountains"><figcaption>Quiet Lake</figcaption></figure>
+    <figure><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=900&q=70" alt="Green field under blue sky"><figcaption>Open Fields</figcaption></figure>
+    <figure><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=70" alt="Mountain peaks above clouds"><figcaption>Above the Clouds</figcaption></figure>
+    <figure><img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=900&q=70" alt="Wild nature landscape"><figcaption>Wild Trail</figcaption></figure>
+    <figure><img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=900&q=70" alt="Path through a tall forest"><figcaption>Forest Path</figcaption></figure>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close" id="close" aria-label="Close">&times;</button>
+    <button class="nav prev" id="prev" aria-label="Previous">&#10094;</button>
+    <img id="lightbox-img" src="" alt="">
+    <button class="nav next" id="next" aria-label="Next">&#10095;</button>
+  </div>
+
+  <footer>Made for the Kodbud Web Development Internship</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
